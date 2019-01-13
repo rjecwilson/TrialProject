@@ -2,7 +2,9 @@
 title: "Trial R Markdown in RStudio"
 author: "RAWilson"
 date: "1/12/2019"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
